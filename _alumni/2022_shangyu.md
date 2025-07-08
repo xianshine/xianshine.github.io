@@ -9,4 +9,4 @@ webpage: ""
 photo: "/members/shangyu.png"
 chinese_name: "吕尚禹"
 ---
-Shangyu Lyu holds a master’s degree. His research focuses on polymer networks and rheology.
+Shangyu Lyu holds a master's degree and is working as a TD-PE at Shanghai Huali Microelectronics Corporation.
