@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Yu Shi"
 collection: members
 permalink: /members/yu-shi/
