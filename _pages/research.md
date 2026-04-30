@@ -20,67 +20,88 @@ redirect_from:
 
 {% include base_path %}
 
-Advancements in material science and nanotechnology allow the fabrication of complex microscopic devices with molecular design rule. As a chemical engineer, I am interested in understanding the rules and laws that underlie the behaviors and functions of various materials. My overall research goal is to achieve rationale functional material design based on fundamental knowledges of the structure-property-function relationship. Specifically, I use advanced molecular theory and simulation techniques to probe thermodynamic relationships relevant in diverse systems that include soft materials, electrolytes, and nano-materials. These thermodynamic relationships not only help us to understand the materials, but also allow us to control and to engineer materials as we need and even enable rational design of novel materials. Beyond simulation and theory, working closely with experimental collaborators is indispensable for me because it leads to validation, improvement, and application of theoretical results.
-
-<p align="center">
-  <img width="60%" height="60%" src="../images/systems.png">
+<p style="text-align: right;">
+  <a class="btn btn--small" href="{{ base_path }}/research_ch/">中文版</a>
 </p>
 
-1. Soft matter assembly
-    
-    Assembly on a surfaces are imperative and relevant in many applications. It usually occurs via substance transfer from bulk solution to the surface accompanied with conformation evolution and/or chemical reactions.
+# **Research Overview: Engineering Charged Soft Matter Across Scales**
 
-    * Supported lipid bilayer
+Soft matter is everywhere. It shapes living tissues, enables flexible devices, controls ion transport, and forms the foundation of many emerging energy technologies. Our lab focuses on a particularly rich and important class of soft materials: **charged soft matter containing mobile ions**, including polyelectrolytes, polymer electrolytes, biological soft tissues, and ion-conducting functional polymers.
 
-    The supported lipid bilayer (SLB) is usually prepared through such an assembly process. SLB has practical importance in many biomimetic technologies including drug delivery, biosensing, high-performance membranes, and biomedical apparatus. Previous SLB preparation usually entails self-assembly that allows little artificial intervention. I studied how to control the assembled SLB structure and the dynamics of the assembly process by controlling the substrate
-    charge density.
+These systems are scientifically fascinating because they are governed by a deep coupling between two long-range effects: **polymer chain correlations** and **electrostatic interactions**. Polymer chains are not simple particles. Their connectivity, conformations, and collective fluctuations create correlations across many length scales. At the same time, ionic species generate electrostatic interactions that are also long-ranged and highly sensitive to local structure, solvation, and external fields.
 
-    <p align="center">
-      <img width="600px" src="../images/slb.png">
-    </p>
+Our central goal is to understand how these two effects work together to determine material behavior. By connecting microscopic structures to macroscopic properties and device-level functions, we aim to build a rational framework for designing next-generation soft materials for energy storage, ion transport, separation, and flexible electronics.
 
+![Overview of charged soft matter systems studied in the lab](path/to/research-overview.jpg)
 
-2. Transport in nano-confined space
-    
-    Mass transport in confined space underlies many processes such as desalination, DNA
-    sequencing, and supercapacitor. Mass transport in nanochannels or nanoporous membranes is
-    fundamentally different from transport in bulk phase. In these systems with molecular scale
-    confinement, molecular interactions are dominant for mass transport and fluctuations becomes so
-    immense that undermines the conventional continuum based transport theories.
+---
 
-    * Ion nanochannels
+# **Our Research Methods: Theory, Simulation, and AI for Soft Matter Design**
 
-    <p align="center">
-      <img width="500px" src="../images/go.png">
-    </p>
+We use a highly interdisciplinary and multiscale approach that combines **molecular theory**, **computer simulation**, and **data-driven artificial intelligence**.
 
-    * Porous organic cages
+At the theoretical level, we develop advanced polymer field theories to describe the collective behavior of charged polymers and ions. These methods allow us to capture how chain connectivity, electrostatics, and ion solvation jointly control phase behavior and material properties.
 
-    <p align="center">
-      <img width="600px" src="../images/poc.png">
-    </p>
+At the simulation level, we use molecular dynamics, coarse-grained models, and field-coupled simulations to study soft matter systems under realistic conditions. In particular, we develop simulation strategies for systems exposed to external electric fields, which are essential for understanding electrochemical interfaces and energy devices.
 
+At the data-driven level, we integrate machine learning and AI methods, including structure-property models and equivariant graph neural networks, to accelerate material discovery. These tools help us identify hidden physical patterns, screen large chemical spaces, and design new polymers with targeted properties.
 
-3. Advanced electrolytes
+We also work closely with experimental collaborators. This connection ensures that our theoretical and computational models are not only physically meaningful, but also useful for real materials and real devices.
 
-    Advanced electrolytes are essential for next-generation energy storage devices, such as batteries, supercapacitors, solar cells, and fuel cells. Different electrolytes are needed for different application conditions. To make effective choice of electrolytes, or to achieve rationale design of electrolytes, call for a good understanding of the thermodynamics, transports, and kinetics of the electrolytes. Using molecular simulation and advanced molecular theories, I try to unviel the fundamental rules for different electrolytes, such as solid polymer electrolytes, polyelectrolytes, ionic liquid, and lithium salt electrolytes.
+![Multiscale research workflow combining theory, simulation, AI, and experiment](path/to/methods-workflow.jpg)
 
-    * Soft polymer coating for lithium dendrite supression
+---
 
-    <p align="center">
-      <img width="600px" src="../images/dendrite.png">
-    </p>
+# **Research Direction I: Programming Assembly and Packing in Bulk Soft Materials**
 
-    * Solvation effects in liquid lithium electrolytes
+Charged polymers and block copolymers can self-assemble into remarkably diverse structures in bulk solutions and melts. These structures are controlled by a delicate balance among chain entropy, local interactions, electrostatics, and ion solvation.
 
-    <p align="center">
-      <img width="500px" src="../images/lisolvation.png">
-    </p>
+A major focus of our lab is to understand how salt doping and selective ion solvation influence microphase separation. In polymer electrolytes and charged block copolymers, ions are not passive additives. They can reshape the effective interactions between polymer segments, change domain spacing, and stabilize new ordered morphologies.
 
-    * Phase diagrams of solid block copolymer electrolytes
+Our theoretical work has revealed deep connections between electrostatics and polymer chain correlations. In some cases, these two effects can be expressed through mathematically equivalent frameworks. This insight allows us to design new routes for controlling self-assembly.
 
-4. Percolation in biological systems
+By manipulating charge distribution, ion solvation, and chain architecture, we aim to stabilize complex packing structures that go beyond conventional soft matter phases. These include highly ordered spherical phases, intricate networks, and exotic structures related to Frank-Kasper phases. Such structures may provide new opportunities for designing materials with advanced mechanical, transport, and optical properties.
 
-    <p align="center">
-      <img width="400px" src="../images/jam.png">
-    </p>
+![Self-assembled morphologies of charged block copolymers and polymer electrolytes](path/to/bulk-assembly.jpg)
+
+---
+
+# **Research Direction II: Controlling Structure Formation at Interfaces and Surfaces**
+
+Interfaces are where many important soft matter processes become functional. In electrochemical devices, the interface between an electrode and an electrolyte controls charge storage, ion transport, stability, and failure. Understanding and controlling interfacial structure formation is therefore essential for the design of advanced energy materials.
+
+Our lab studies soft matter assembly at surfaces and interfaces, especially under external electric fields. We develop and use field-coupled molecular simulations to explore how polymers, ions, and charged surfaces interact dynamically.
+
+One important application is the study of **electric double-layer capacitors**. We investigate how engineered polymer charge sequences affect adsorption, interfacial organization, and charging dynamics. By tuning molecular sequence and charge pattern, we seek to control how soft charged materials respond to electric fields.
+
+Another major application is the design of soft polymer coatings for lithium metal batteries. Lithium dendrite growth remains a serious challenge for next-generation batteries. We simulate how polymer coatings interact with lithium surfaces and ionic environments, with the goal of identifying design principles for suppressing dendrite formation and improving battery safety.
+
+![Interfacial assembly of charged polymers under electric fields](path/to/interface-structure.jpg)
+
+---
+
+# **Research Direction III: Designing Functional Polymers for Ion Transport**
+
+Ion transport is central to many modern technologies, including solid-state batteries, separation membranes, sensors, and flexible electronics. However, designing polymers with fast, selective, and stable ion transport remains challenging.
+
+Our lab studies functional polymers in confined spaces and complex chemical environments. These include solid polymer electrolytes, porous organic cage membranes, polyimides, and other ion-conducting soft materials.
+
+A key concept in our work is **generalized ion solvation**. Traditional models often treat ion transport mainly through diffusion or simple binding interactions. In real polymer systems, ion motion is controlled by a broader set of molecular factors, including local coordination, segmental motion, dielectric environment, free volume, and polymer architecture.
+
+We use generalized ion solvation models to understand and navigate the trade-off between ion dissociation and ion diffusion. Strong ion-polymer interactions may help dissociate salts, but they can also slow down ion motion. Weak interactions may allow faster diffusion, but they may reduce the number of mobile charge carriers. Our goal is to identify molecular designs that balance these effects.
+
+By combining physical insight with AI and machine learning, we rapidly screen candidate polymers and predict their transport properties. This strategy allows us to move from understanding to design, and ultimately toward functional materials with high ionic conductivity, strong electrochemical stability, and robust performance in practical devices.
+
+![AI-assisted design of functional polymers for ion transport](path/to/ion-transport-ai.jpg)
+
+---
+
+# **Toward Rational Design of Future Soft Materials**
+
+Across these research directions, our lab seeks to answer one broad question:
+
+**How can we use molecular-level physics to design soft materials with predictable and programmable functions?**
+
+We believe the answer lies in combining classical principles of polymer physics with modern computational methods and AI. By respecting the deep physical foundations of soft matter while embracing new tools for discovery, we aim to build a bridge from fundamental theory to advanced materials and devices.
+
+Our work is especially suited for students who are excited by physics, computation, materials science, and interdisciplinary research. Through theory, simulation, and data-driven design, we are working to uncover the hidden rules that govern charged soft matter—and to use those rules to create materials for the future.
