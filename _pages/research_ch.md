@@ -34,7 +34,7 @@ redirect_from:
 
 面向应用，我们希望为能量存储、离子传输、分离膜和柔性电子等方向提供更清楚的设计原则。
 
-![课题组研究的带电软物质体系概览](path/to/research-overview.jpg)
+![课题组研究的带电软物质体系概览](../images/research-overview.png)
 
 ---
 
