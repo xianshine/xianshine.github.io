@@ -32,7 +32,7 @@ These systems are scientifically fascinating because they are governed by a deep
 
 Our central goal is to understand how these two effects work together to determine material behavior. By connecting microscopic structures to macroscopic properties and device-level functions, we aim to build a rational framework for designing next-generation soft materials for energy storage, ion transport, separation, and flexible electronics.
 
-![Overview of charged soft matter systems studied in the lab](path/to/research-overview.jpg)
+![Overview of charged soft matter systems studied in the lab](../images/research-overview.png)
 
 ---
 
